@@ -28,11 +28,11 @@ label.pack(pady=20, padx=20)
 exit_button = tk.Button(root, text="Close", command=exit_clicked, width=5,)
 exit_button.pack(side="right", padx=10, pady=10)
 
-yes_button = tk.Button(root, text="Yes", command=yes_clicked, width=5,)
-yes_button.pack(side="right", padx=10, pady=10)
-
 no_button = tk.Button(root, text="No", command=no_clicked, width=5,)
 no_button.pack(side="right", padx=10, pady=10)
+
+yes_button = tk.Button(root, text="Yes", command=yes_clicked, width=5,)
+yes_button.pack(side="right", padx=10, pady=10)
 
 
 # Run the pop-up
