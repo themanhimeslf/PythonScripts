@@ -6,7 +6,7 @@ def yes_clicked():
 
 def no_clicked():
     root.destroy() # steng windu
-
+    
 def exit_clicked():
     root.destroy()  # Close the window
 
@@ -29,11 +29,11 @@ exit_button = tk.Button(root, text="Close", command=exit_clicked, width=5,)
 exit_button.pack(side="right", padx=10, pady=10)
 
 no_button = tk.Button(root, text="No", command=no_clicked, width=5,)
-no_button.pack(side="right", padx=10, pady=10)
+no_button.pack(side="right", padx=10, pady=10) #shitty nei knappen
 
 yes_button = tk.Button(root, text="Yes", command=yes_clicked, width=5,)
-yes_button.pack(side="right", padx=10, pady=10)
+yes_button.pack(side="right", padx=10, pady=10) #ja knappen
 
 
-# Run the pop-up
+#  greie shity greinne for å runne
 root.mainloop()
